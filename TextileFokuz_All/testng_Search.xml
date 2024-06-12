@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+   <test  thread-count="5" name="action: Verify serach with valid data" parallel="methods">
+  
+   <parameter name="scenario" value="1"/>	
+    <parameter name="excel_start" value="15"/>
+	<parameter name="excel_end" value="15"/>
+	
+    <classes>
+      <class name="testcases_product.TS_01_login"/>
+       <class name="testcases_product.TS_09_Product_Search"/>
+      
+      
+    </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->

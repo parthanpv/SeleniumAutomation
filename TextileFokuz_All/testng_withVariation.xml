@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+     <!-- <test thread-count="5" name="13 - Add product with variation enable and check product adding with all vaid data" parallel="methods">
+  	
+   <parameter name="scenario" value="1"/>
+    <parameter name="excel_start" value="15"/>
+	<parameter name="excel_end" value="15	"/>
+	<parameter name="IsAddProductTrue" value="0"/>
+    <classes>
+      <class name="testcases_product.TS_01_login"/>
+       <class name="testcases_product.TS_03_AddProduct_variations_1"/>
+         
+    </classes>
+  </test> 
+
+    <test thread-count="5" name="14-Add product with variation enable and check product adding combination number" parallel="methods">
+  	
+   <parameter name="scenario" value="1"/>
+    <parameter name="excel_start" value="16"/>
+	<parameter name="excel_end" value="16"/>
+	<parameter name="IsAddProductTrue" value="0"/>
+    <classes>
+      <class name="testcases_product.TS_01_login"/>
+       <class name="testcases_product.TS_06_AddProduct_variations_4"/>
+         
+    </classes>
+  </test>
+
+    <test thread-count="5" name="16 -Add product with variation enable and check image upload" parallel="methods">
+  	
+   <parameter name="scenario" value="1"/>
+    <parameter name="excel_start" value="17"/>
+	<parameter name="excel_end" value="17"/>
+	<parameter name="IsAddProductTrue" value="0"/>
+    <classes>
+      <class name="testcases_product.TS_01_login"/>
+       <class name="testcases_product.TS_03_AddProduct_variations_1"/>
+         
+    </classes>
+  </test>  
+  
+      <test thread-count="5" name="18th , 19th,20 row data will use-check the combination while selecting more than one data from list " parallel="methods">
+  	
+   <parameter name="scenario" value="1"/>
+    <parameter name="excel_start" value="19"/>
+	<parameter name="excel_end" value="19"/>
+	<parameter name="IsAddProductTrue" value="0"/>
+    <classes>
+      <class name="testcases_product.TS_01_login"/>
+       <class name="testcases_product.TS_05_AddProduct_variations_3"/>
+         
+    </classes>
+  </test> 
+  
+   <test thread-count="5" name="Verify submit button navigate to List page" parallel="methods">
+  	
+   <parameter name="scenario" value="1"/>
+    <parameter name="excel_start" value="21"/>
+	<parameter name="excel_end" value="21"/>
+	<parameter name="IsAddProductTrue" value="1"/>
+    <classes>
+      <class name="testcases_product.TS_01_login"/>
+       <class name="testcases_product.TS_03B_AddProduct_variations_1B"/>
+         
+    </classes>
+  </test> -->
+     <test thread-count="5" name="Check product only show the same variation type and hide others" parallel="methods">
+  	
+   <parameter name="scenario" value="1"/>
+    <parameter name="excel_start" value="22"/>
+	<parameter name="excel_end" value="22"/>
+	<parameter name="IsAddProductTrue" value="1"/>
+    <classes>
+      <class name="testcases_product.TS_01_login"/>
+       <class name="testcases_product.TS_04_AddProduct_variations_2"/>
+         
+    </classes>
+  </test>
+
+   <!-- Test -->
+</suite> <!-- Suite -->

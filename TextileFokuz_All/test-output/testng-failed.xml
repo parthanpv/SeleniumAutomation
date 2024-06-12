@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="13 - Add product with variation enable and check product adding with all vaid data(failed)">
+    <parameter name="scenario" value="1"/>
+    <parameter name="excel_start" value="15"/>
+    <parameter name="IsAddProductTrue" value="0"/>
+    <parameter name="excel_end" value="15 "/>
+    <classes>
+      <class name="testcases_product.TS_03_AddProduct_variations_1">
+        <methods>
+          <include name="Start"/>
+          <include name="add_product"/>
+        </methods>
+      </class> <!-- testcases_product.TS_03_AddProduct_variations_1 -->
+    </classes>
+  </test> <!-- 13 - Add product with variation enable and check product adding with all vaid data(failed) -->
+</suite> <!-- Failed suite [Suite] -->

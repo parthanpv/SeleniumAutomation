@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <!-- 
+ <test  thread-count="5" name="Test scenario 1 to 3" parallel="methods">
+  
+   <parameter name="scenario" value="1"/>
+    <parameter name="excel_start" value="1"/>
+	<parameter name="excel_end" value="3"/>
+	<parameter name="IsAddProductTrue" value="1"/>
+    <classes>
+      <class name="testcases_product.TS_01_login"/>
+       <class name="testcases_product.TS_02_AddProduct_No_variations"/>
+      
+      
+    </classes>
+  </test>  
+ -->
+ 
+    <test  thread-count="5" name="Test scenario 4" parallel="methods">
+  
+   <parameter name="scenario" value="1"/>
+    <parameter name="excel_start" value="4"/>
+	<parameter name="excel_end" value="4"/>
+	<parameter name="IsAddProductTrue" value="0"/>
+    <classes>
+      <class name="testcases_product.TS_01_login"/>
+       <class name="testcases_product.TS_02_AddProduct_No_variations"/>
+      
+      
+    </classes>
+  </test> 
+  <!-- 
+      <test  thread-count="5" name="Test scenario 5" parallel="methods">
+  
+   <parameter name="scenario" value="1"/>
+    <parameter name="excel_start" value="5"/>
+	<parameter name="excel_end" value="5"/>
+	<parameter name="IsAddProductTrue" value="0"/>
+    <classes>
+      <class name="testcases_product.TS_01_login"/>
+       <class name="testcases_product.TS_02_AddProduct_No_variations"/>
+      
+      
+    </classes>
+  </test> 
+
+  <test  thread-count="5" name="Test scenario 6" parallel="methods">
+  
+   <parameter name="scenario" value="1"/>
+    <parameter name="excel_start" value="6"/>
+	<parameter name="excel_end" value="6"/>
+	<parameter name="IsAddProductTrue" value="0"/>
+    <classes>
+      <class name="testcases_product.TS_01_login"/>
+       <class name="testcases_product.TS_02_AddProduct_No_variations"/>
+      
+      
+    </classes>
+  </test>
+        <test  thread-count="5" name="Verify add product working when add product only with mandatory fields" parallel="methods">
+  
+   <parameter name="scenario" value="1"/>
+    <parameter name="excel_start" value="7"/>
+	<parameter name="excel_end" value="7"/>
+	<parameter name="IsAddProductTrue" value="0"/>
+    <classes>
+      <class name="testcases_product.TS_01_login"/>
+       <class name="testcases_product.TS_02_AddProduct_No_variations"/>
+      
+      
+    </classes>
+  </test>
+ <test  thread-count="5" name="Verify product not adding when add product without mandatory fields" parallel="methods">
+  
+   <parameter name="scenario" value="1"/>
+    <parameter name="excel_start" value="8"/>
+	<parameter name="excel_end" value="8"/>
+	<parameter name="IsAddProductTrue" value="2"/>
+    <classes>
+      <class name="testcases_product.TS_01_login"/>
+       <class name="testcases_product.TS_02_AddProduct_No_variations"/>
+      
+      
+    </classes>
+  </test>
+
+   <test  thread-count="5" name="Verify product not adding when add product with invalid chars" parallel="methods">
+  
+   <parameter name="scenario" value="1"/>
+    <parameter name="excel_start" value="9"/>
+	<parameter name="excel_end" value="9"/>
+	<parameter name="IsAddProductTrue" value="2"/>
+    <classes>
+      <class name="testcases_product.TS_01_login"/>
+       <class name="testcases_product.TS_02_AddProduct_No_variations"/>
+      
+      
+    </classes>
+  </test> 
+   -->
+
+</suite> 
